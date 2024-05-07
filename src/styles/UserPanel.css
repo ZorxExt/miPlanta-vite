@@ -1,0 +1,24 @@
+.main_page-user {
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    background-color: #dfece6;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0 100px 0;
+    font-family: "Cairo Variable";
+    align-items: center;
+  }
+
+  @media (max-width: 900px) {
+  
+    .main_page-user {
+      border-radius: 0;
+      padding: 20px 0 20px 0;
+      margin: 40px 0 40px 0;
+      box-shadow: 0 0 5px #ffffff;
+    }
+  }

@@ -1,0 +1,286 @@
+.main_page {
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .codigo-vinculacion {
+    font-family: "Cairo Variable";
+    color: #dfece6;
+    font-size: 32px;
+    max-width: 1500px;
+    margin: auto;
+    position: absolute;
+    top: 200px;
+    transition: all 1s ease-out 0s;
+    display: block;
+    transform: translateX(-1500px);
+  }
+  .links-vinculacion {
+    margin-top: 80px;
+  }
+  .links-vinculacion > a {
+    margin-bottom: 50px;
+  }
+  .btn_servicio {
+    margin-left: 30px;
+  }
+  .codigo-vinculacion-about {
+    font-family: "Cairo Variable";
+    color: #dfece6;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transition: all 1s ease-out 0s;
+    display: block;
+    transform: translateX(-1500px);
+  }
+  .codigo-vinculacion-about > h2 {
+    border-left: 3px #049144 solid;
+    padding-left: 20px;
+    margin-bottom: 50px;
+  }
+  .codigo-vinculacion-about > h3 {
+    border-left: 3px #049144 solid;
+    padding-left: 20px;
+  }
+  .start_1 {
+    max-width: 650px;
+    display: inline-block;
+    color: #dfece6;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    transition: all 1s ease-in-out 0s;
+  }
+  .start_1 > h2 {
+    font-family: "Cairo Variable";
+    font-variant: small-caps;
+    margin: 0;
+    padding: 0;
+    font-size: 4rem;
+  }
+  .start_1 > h2 > small {
+    font-size: 3rem;
+  }
+  .start_1 > h4 {
+    max-width: 450px;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    font-family: "Cairo Variable";
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: #4c966f08;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border-left: #049144 5px solid;
+  }
+  
+  .links {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .btn_start1 {
+    font-family: "Cairo Variable";
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px 10px 20px;
+    margin: 0 30px;
+    background-color: #05bf59;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s ease 0s;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .btn_start1:hover {
+    background-color: #dfece6;
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+  
+  .btn_start1 > img {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.2em;
+  }
+  
+  .btn_start2 {
+    font-family: "Cairo Variable";
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px 10px 20px;
+    margin: 0 30px;
+    background-color: #05bf59;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s ease 0s;
+    border-radius: 5px;
+    border: none;
+    max-width: fit-content;
+  }
+  
+  .btn_start2:hover {
+    background-color: #dfece6;
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+  
+  .btn_start2 > img {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.2em;
+  }
+  
+  .btn_servicio {
+    font-family: "Cairo Variable";
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #dfece6;
+    padding: 10px 10px;
+    background-color: #fcfcfc1c;
+    border: 1px solid #4c966f08;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s ease 0s;
+    border-radius: 10px;
+  }
+  
+  .btn_servicio:hover {
+    background-color: #dfece6;
+    color: black;
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+  
+  .btn_servicio > img {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.2em;
+  }
+  
+  .main_page > img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 150px;
+    margin-top: auto;
+    height: 500px;
+  }
+  @media (max-width: 1100px) {
+    .main_page {
+        border-radius: 0;
+        padding: 0px;
+        margin: 0px;
+        box-shadow: none;
+        flex-direction: column;
+      }
+      .start_1 {
+        text-align: center;
+        padding-top: 0;
+        margin: 50px 10px 0 10px;
+      }
+      .start_1 > h2 {
+        font-size: 8.5vw;
+        margin-bottom: 30px;
+      }
+      .start_1 > h4 {
+        margin: auto;
+      }
+      .btn_start1 {
+        margin: auto;
+      }
+      .main_page > img {
+        height: 200px;
+        margin: 0;
+        margin-top: 20px;
+      }
+      .codigo-vinculacion{
+        top: auto;
+        margin-left: 10px;
+      }
+      .links-vinculacion > a , .links-vinculacion > button {
+        margin-left: 0;
+      }
+      .codigo-vinculacion-about{
+        padding: 20px;
+      }
+  }
+
+  .servicio-container {
+    border-top: 2px #05bf59 solid;
+    width: 100vw;
+    height: 600px;
+    background-image: url(./cannabis2.jpg);
+    background-color: #022201f2;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+  }
+  .servicio-container > section {
+    color: #dfece6;
+    font-size: 25px;
+    font-family: "Cairo Variable";
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 33%;
+  }
+  .servicio-container > section > div {
+    background-color: #022201;
+    min-height: 250px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 80px;
+    z-index: 10;
+    border-top: 2px #05bf59 solid;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .servicio-container > section > div > p {
+    height: 90px;
+    margin-top: 120px;
+  }
+  .servicio-container > section > figure {
+    background-color: #dfece6;
+    border-radius: 100%;
+    padding: 1rem;
+    margin: 0px auto;
+    z-index: 20;
+    border-top: 5px #05bf59 solid;
+  }
+  .servicio-container > section > figure > img {
+    height: 100px;
+  }
+
+  @media (max-width: 1100px) {
+    .servicio-container {
+        flex-direction: column;
+        height: auto;
+        padding-top: 10px;
+      }
+      .servicio-container > section {
+        width: 100%;
+      }
+      .servicio-container > section > div {
+        width: 100%;
+      }
+      .servicio-container > section > div > p {
+        font-size: 18px;
+      }
+  }

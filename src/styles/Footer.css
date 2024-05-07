@@ -1,0 +1,23 @@
+footer {
+  background-color: #0000006c;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: absolute;
+  bottom: 1;
+  width: 100%;
+}
+footer > p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Cairo Variable";
+  font-size: 1.2rem;
+  color: #c9c9c9;
+}
+footer > p > a {
+  color: #4c966f;
+  text-decoration: none;
+}
+footer > p > a:hover {
+  text-decoration: underline;
+}
